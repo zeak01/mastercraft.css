@@ -12,7 +12,7 @@ body {
     padding: 20px;
 }
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -30,7 +30,7 @@ h5 {
     color: black;
     text-align: right;
 }
-p {
+p3 {
     font-size: 2em;
     font-family: Arial Black, Gadget, sans-serif;
     line-height: 1.2;
@@ -43,4 +43,11 @@ p2 {
     line-height: 1;
     margin-top: 10px;
     text-align: right;
+}
+div.image-column {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    float: right;
 }
